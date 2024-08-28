@@ -14,12 +14,16 @@ php artisan filament:install --panels
 
 php artisan make:filament-user
 
-
+copiar el contenido del archivo .env.example
+composer install como el npm install
+Crear la base de datos
+php artisan key:generate
+php artisan migrate
 
 
 git init
 git add .
-git commit -m "first commit"
+git commit -m "Empezamos con pet clinic"
 git branch -M main
-git remote add origin https://github.com/lcevallo/curso-filamentphp-intranet.git
+git remote add origin https://github.com/lcevallo/pet-clinic.git
 git push -u origin main
